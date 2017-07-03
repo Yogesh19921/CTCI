@@ -3,18 +3,25 @@
 #include "BinaryTree.h"
 using namespace std;
 bool checkBalance(Node current);
-//void nthtolast(LinkedList& L, int n);
+/*
+                5
+               /  \
+             3     7
+            / \   /  \
+          2   4  6    8
+*/
+
 int main(int argc, char **argv)
 {
 	BinaryTree B1(true);
 	B1.add(5);
 	B1.add(7);
-//	B1.add(3);
+	B1.add(3);
 	B1.add(6);
 	B1.add(8);
-/*	B1.add(4);
+	B1.add(4);
 	B1.add(2);
-
+/*
 	B1.inOrder(B1.root);
 */
 	cout<<checkBalance(B1.root);

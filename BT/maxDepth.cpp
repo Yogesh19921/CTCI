@@ -4,6 +4,19 @@
 
 using namespace std;
 int depth(Node current);
+/*
+                5
+               /  \
+             3     7
+            / \   /  \
+          2   4  6    8
+         /
+        1
+       /
+      0
+*/
+
+
 int main(int argc, char **argv)
 {
         BinaryTree B1(true);//making a binary search tree

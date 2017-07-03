@@ -3,8 +3,16 @@
 #include "BinaryTree.h"
 
 using namespace std;
-//bool checkBalance(Node current);
-//void nthtolast(LinkedList& L, int n);
+/*
+                5
+               /  \
+             3     7
+            / \   /  \
+          2   4  6    8
+
+*/
+
+
 
 bool parent(Node current,int data);
 
