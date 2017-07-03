@@ -22,4 +22,5 @@ class Queue
 		Node dequeue();
 		Node peep();
 		int size();
+		void printq();
 };
